@@ -1,0 +1,35 @@
+:root{
+    --color1: white;
+    --color2: black;
+}
+
+.header-content{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.header-content .content .imgData {
+    margin: auto;
+    background-color: black;
+    height: auto;
+    width:  100%;
+    position: absolute;
+    background-color: var(--color2);
+}
+
+.header-content .content .imgData img {
+    height: auto;
+    width:  100%;
+    opacity: 0.6;
+    background-color: var(--color2);
+}
+
+.header-content .content .text-header{
+    position: absolute;
+    margin-top: 20px;
+    
+}
+.header-content .content .sub-text{
+    position: absolute;
+}
