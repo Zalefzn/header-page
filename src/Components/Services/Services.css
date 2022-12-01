@@ -1,0 +1,193 @@
+:root{
+    --color: white;
+    --color2: black;
+    --color3: rgb(186, 186, 186);
+    --color4: rgb(255, 75, 75);
+}
+
+
+.container-content{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.container-content .image-bg{
+    position: relative;
+    background: var(--color2); 
+    width: 100%;
+}
+
+.container-content .services{
+    position: absolute;
+    margin-top: -60%;
+    margin-left: 37%;
+    color: var(--color);
+    animation-name: animasi2;
+    animation-duration: 3s;
+}
+
+.container-content .services h2{
+    text-align: center;
+    font-size: 30px;
+ }
+
+.container-content .services p{
+   text-align: center;
+   font-size: 20px;
+}
+
+.container-content .image-bg img{
+    opacity: 0.2;
+    width: 100%;
+}
+
+.container-content .content{
+    height: 80%;
+    width: 70%;
+    position: absolute;
+    display:flex;
+    margin-left: 13%;
+    margin-top: -43%;
+    text-align: center;
+    animation-name: animasi1;
+    animation-duration: 3s;
+}
+
+.container-content .content .card-1{
+    height: 50%;
+    width: 50%;
+    background-color: var(--color);
+    border-radius: 30px;
+}
+
+.container-content .content .card-1 img{
+    opacity: 0.8;
+    border-radius: 30px 30px 0px 0px;
+    height: 50%;
+    width: 100%;
+    background-color: var(--color);
+}
+
+.container-content .content .card-1 p{
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.container-content .content .card-1 .button1{
+    padding: 10px 40px;
+    color: var(--color);
+    background-color: rgb(252, 75, 75);
+    border-radius: 15px;
+    border-style: none;
+}
+
+.container-content .content .card-1 .button1:hover{
+    padding: 10px 40px;
+    color: var(--color);
+    background-color: rgb(184, 184, 184);
+    border-radius: 15px;
+    border-style: none;
+}
+
+
+.container-content .content .card-2{
+    height: 50%;
+    width: 50%;
+    margin-left: 40px;
+    border-radius: 30px;
+    background-color: var(--color);
+}
+
+.container-content .content .card-2 p{
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.container-content .content .card-2 img{
+    opacity: 0.8;
+    border-radius: 30px 30px 0px 0px;
+    height: 50%;
+    width: 100%;
+    background-color: var(--color);
+}
+
+.container-content .content .card-2 .button1{
+    padding: 10px 40px;
+    color: var(--color);
+    background-color: rgb(252, 75, 75);
+    border-radius: 15px;
+    border-style: none;
+}
+
+.container-content .content .card-2 .button1:hover{
+    padding: 10px 40px;
+    color: var(--color);
+    background-color: rgb(184, 184, 184);
+    border-radius: 15px;
+    border-style: none;
+}
+
+.container-content .content .card-3{
+    height: 50%;
+    width: 50%;
+    margin-left: 40px;
+    border-radius: 30px;
+    background-color: var(--color);
+}
+
+.container-content .content .card-3 p{
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+.container-content .content .card-3 img{
+    opacity: 0.8;
+    border-radius: 30px 30px 0px 0px;
+    height: 50%;
+    width: 100%;
+    background-color: var(--color);
+}
+
+.container-content .content .card-3 .button1{
+    padding: 10px 40px;
+    color: var(--color);
+    background-color: rgb(252, 75, 75);
+    border-radius: 15px;
+    border-style: none;
+}
+
+.container-content .content .card-3 .button1:hover{
+    padding: 10px 40px;
+    color: var(--color);
+    background-color: rgb(184, 184, 184);
+    border-radius: 15px;
+    border-style: none;
+}
+
+@keyframes animasi1 {
+    0%{
+        margin-left: -43%;
+        opacity: 0;
+    }
+
+    25%{
+        margin-left: -50%;
+        opacity: 0.2;
+    }
+}
+
+@keyframes animasi2 {
+    0%{
+        transform: scale(1);
+        opacity: 0;
+    }
+
+    35%{
+        transform: scale(2);
+        opacity: 0.6;
+    }
+}

@@ -1,35 +1,109 @@
 :root{
-    --color1: white;
+    --color: white;
     --color2: black;
+    --color3: rgb(186, 186, 186);
+    --color4: rgb(255, 75, 75);
 }
 
-.header-content{
+
+.container-content{
     margin: 0;
     padding: 0;
     position: relative;
 }
 
-.header-content .content .imgData {
-    margin: auto;
-    background-color: black;
-    height: auto;
-    width:  100%;
-    position: absolute;
-    background-color: var(--color2);
+.container-content .image{
+    position: relative;
+    background: var(--color2); 
+    width: 100%;
 }
 
-.header-content .content .imgData img {
-    height: auto;
-    width:  100%;
+.container-content .image img{
     opacity: 0.6;
-    background-color: var(--color2);
+    width: 100%;
 }
 
-.header-content .content .text-header{
+.container-content .logo{
     position: absolute;
-    margin-top: 20px;
-    
+    z-index: 1;
 }
-.header-content .content .sub-text{
+
+.container-content .logo img{
+    margin-top: 30%;
+    margin-left: 48px;
+    height: 70px;
+    width: auto;
+    animation-name: animasi2;
+    animation-duration: 2s;
+}
+
+.container-content .header{
     position: absolute;
+    margin-left: 48px;
+    margin-top: -48%;
+   
+}
+
+.container-content .header h2{
+    padding: 10px;
+    font-size: 33px;
+    letter-spacing: 1px;
+    color: var(--color);
+    animation-name: animasi1;
+    animation-duration: 2s;
+}
+
+.container-content .header p {
+    margin-top: -2%;
+    padding: 10px;
+    font-size: 26px;
+    letter-spacing: 1px;
+    color: var(--color);
+    animation-name: animasi1;
+    animation-duration: 3s;
+}
+
+.container-content .header button{
+    padding: 12px 50px;
+    background: var(--color4);
+    color: var(--color);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    border-style: none;
+    animation-name: animasi1;
+    animation-duration: 4s;
+}
+
+.container-content .header button:hover{
+    padding: 12px 50px;
+    margin-left: auto;
+    background: var(--color3);
+    color: var(--color);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    border-style: none;
+}
+
+@keyframes animasi1 {
+    0%{
+        margin-left: 48px;
+        opacity: 0.1;
+    }
+    25%{
+        margin-right: 52px;
+        opacity: 0.8;
+    }
+}
+
+@keyframes animasi2 {
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.8;
+        transform: scale(1);
+    }
 }
