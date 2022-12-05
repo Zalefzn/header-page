@@ -1,0 +1,44 @@
+.container-content-about{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+.container-content-about .content-about{
+    position: relative;
+    margin: auto;
+    margin-top: 17%;
+    margin-left: 50px;
+}
+
+.container-content-about .content-about .image-content{
+    background: rgb(0, 0, 0);
+    height: 300px;
+    width: 450px;
+    border-radius: 30px;
+}
+
+.container-content-about .content-about .image-content .image{
+   height: 300px;
+   width: 450px;
+   border-radius: 30px;
+ 
+}
+
+.container-content-about .content-about .image-content-vol2{
+    height: 300px;
+    width: 450px;
+    border-radius: 30px;
+    margin-top: -80px;
+    margin-left: 70px;
+}
+
+.container-content-about .content-about .image-content-vol2 .image-vol2{
+   height: 300px;
+   width: 450px;
+   border-radius: 30px;
+   z-index: 1;
+   margin-top: -80px;
+}
+

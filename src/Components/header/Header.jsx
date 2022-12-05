@@ -24,7 +24,7 @@ class HeaderPage extends Component{
   }
 
   componentDidMount(){
-    
+   
   }
 
   render(){

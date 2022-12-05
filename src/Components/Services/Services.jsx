@@ -9,7 +9,7 @@ class ServicesPage extends Component{
             image2: "school.png",
         }
     }
-
+    
 
 
     render(){

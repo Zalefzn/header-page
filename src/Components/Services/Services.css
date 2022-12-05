@@ -69,6 +69,10 @@
     background-color: var(--color);
 }
 
+.container-content .content .card-1 h2{
+    font-size: 15px;
+}
+
 .container-content .content .card-1 p{
   text-align: center;
   font-size: 10px;
@@ -104,6 +108,10 @@
   text-align: center;
   font-size: 10px;
   font-weight: bold;
+}
+
+.container-content .content .card-2 h2{
+    font-size: 15px;
 }
 
 .container-content .content .card-2 img{
@@ -143,6 +151,11 @@
     font-size: 10px;
     font-weight: bold;
   }
+
+
+  .container-content .content .card-3 h2{
+    font-size: 15px;
+}
 
 .container-content .content .card-3 img{
     opacity: 0.8;
