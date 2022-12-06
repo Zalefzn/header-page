@@ -23,9 +23,7 @@ class HeaderPage extends Component{
     console.info(buttonChange);
   }
 
-  componentDidMount(){
-   
-  }
+  
 
   render(){
     return(

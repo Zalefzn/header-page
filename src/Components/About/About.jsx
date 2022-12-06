@@ -9,22 +9,25 @@ class AboutPage extends Component{
           image: 'school2.jpg',
           image2: 'school.png',
         }
+        
     }
 
+
+   
   
     render(){
         return(
             <div className="container-content-about">
                 <div className="content-about">
                     <div className="image-content">
-                        <img className="image" src={this.state.image} alt=""></img>
+                        <img className="image" src={this.state.image2} alt=""></img>
                     </div>
                     <div className="image-content-vol2">
-                        <img className="image-vol2" src={this.state.image2} alt=""></img>
+                        <img className="image-vol2" src={this.state.image} alt=""></img>
                     </div>
                     <div className="text-content">
                         <p>
-                            
+                            Hello World
                         </p>
                     </div>
                 </div>
