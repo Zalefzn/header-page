@@ -42,3 +42,58 @@
    margin-top: -80px;
 }
 
+.container-content-about .content-about .text-content{
+    float: right;
+    position: relative;
+    margin-right: 13%;
+    margin-top: -35%;
+    animation-name:animasi1;
+    animation-duration: 2s;
+}
+
+.container-content-about .content-about .text-content .text-vol1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container-content-about .content-about .button-info{
+    float: right;
+    position: relative;
+    margin-right: 39%;
+    margin-top: -20%;
+    animation-name:animasi1;
+    animation-duration: 2s;
+}
+
+.container-content-about .content-about .button-info .btn-info{
+    padding: 8px 40px;
+    border-radius: 15px;
+    border-style: none;
+    background: rgb(255, 50, 50);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.container-content-about .content-about .button-info .btn-info:hover{
+    padding: 8px 40px;
+    border-radius: 15px;
+    border-style: none;
+    background: rgb(165, 165, 165);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+@keyframes animasi1 {
+    0%{
+        margin-left: 13%;
+        opacity: 0.8;
+    }
+    25%{
+        
+        margin-right: 15%;
+        opacity: 0;
+    }
+}
+

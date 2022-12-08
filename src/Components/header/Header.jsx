@@ -23,7 +23,6 @@ class HeaderPage extends Component{
     console.info(buttonChange);
   }
 
-  
 
   render(){
     return(

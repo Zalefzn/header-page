@@ -22,7 +22,10 @@ class App extends Component{
         <Routes>
           <Fragment>
             <Route path='/' element={<HeaderPage />}></Route>
-            <Route path='/about' element={<AboutPage />} />
+            <Route path='/about' element={
+            <AboutPage 
+            image="school.png"
+            />} />
             <Route path='/services' element={<ServicesPage />} />
             <Route path='/courses' element={<CoursesPage />} />
           </Fragment>
