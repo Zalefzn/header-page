@@ -47,7 +47,7 @@
     position: relative;
     margin-right: 13%;
     margin-top: -35%;
-    animation-name:animasi1;
+    animation-name:animasiBaru1;
     animation-duration: 2s;
 }
 
@@ -61,7 +61,7 @@
     position: relative;
     margin-right: 39%;
     margin-top: -20%;
-    animation-name:animasi1;
+    animation-name:animasiBaru2;
     animation-duration: 2s;
 }
 
@@ -85,10 +85,22 @@
     font-weight: bold;
 }
 
-@keyframes animasi1 {
+@keyframes animasiBaru1 {
     0%{
-        margin-left: 13%;
-        opacity: 0.8;
+        margin-left: 9%;
+        opacity: 0.2;
+    }
+    25%{
+        
+        margin-right: 15%;
+        opacity: 0;
+    }
+}
+
+@keyframes animasiBaru2 {
+    0%{
+        margin-left: 9%;
+        opacity: 0.2;
     }
     25%{
         

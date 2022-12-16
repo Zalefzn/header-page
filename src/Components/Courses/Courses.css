@@ -1,0 +1,33 @@
+:root{
+    --color: white;
+    --color2: black;
+    --color3: rgb(255, 73, 73);
+}
+
+.container-page{
+    position: relative;
+    margin: 0;
+    padding:0;
+}
+
+.container-page .content-page{
+    height: 600px;
+    width: auto;
+    margin: 50px;
+    background: var(--color);
+}
+
+.container-page .content-page .content-header{
+    margin: auto;
+}
+
+.container-page .content-page .content-header .image-data-vol1 img{
+    border-radius: 20px;
+    background: var(--color2);
+
+}
+
+.container-page .content-page .content-header-vol2{
+    margin: auto;
+    float: right;
+}

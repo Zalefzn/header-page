@@ -9,9 +9,8 @@ class ServicesPage extends Component{
             image2: "school.png",
         }
     }
+
     
-
-
     render(){
         return(
             <div className="container-content">

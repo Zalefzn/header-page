@@ -11,7 +11,7 @@ class HeaderPage extends Component{
     this.handlePrevent = this.handlePrevent.bind(this);
     this.changeColor  = this.changeColor.bind(this);
   }
-
+  
   handlePrevent(e){
     e.preventDefault();
   }
