@@ -23,11 +23,19 @@
 
 .container-page .content-page .content-header .image-data-vol1 img{
     border-radius: 20px;
+    height: 300px;
+    width:auto;
     background: var(--color2);
-
 }
 
 .container-page .content-page .content-header-vol2{
     margin: auto;
     float: right;
+}
+
+.container-page .content-page .content-header-vol2 .image-data-vol2 img{
+    border-radius: 20px;
+    height: 300px;
+    width:auto;
+    background: var(--color2);
 }

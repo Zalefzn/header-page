@@ -35,7 +35,7 @@ class CoursesPage extends Component{
         ];
         dataUser.forEach(data => console.info(data.nama ));
     }
-    
+
 
     render(){
         return(
@@ -48,6 +48,9 @@ class CoursesPage extends Component{
                         </div>
                         <div className="judul-header">
                             <h3>Courses Vol 1</h3>
+                        </div>
+                        <div className="sub-judul">
+                            this courses for child
                         </div>
                         <div className="button-content">
                             <button type="button" name="button"
@@ -64,6 +67,9 @@ class CoursesPage extends Component{
                         </div>
                         <div className="judul-header-vol2">
                             <h3>Courses Vol 1</h3>
+                        </div>
+                        <div className="sub-judul">
+                            this courses for child
                         </div>
                         <div className="button-content-vol2">
                             <button type="button" name="button">
